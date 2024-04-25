@@ -1,4 +1,4 @@
-
+/*!
 /*!
  * jQuery JavaScript Library v3.6.2
  * https://jquery.com/
@@ -12,6 +12,7 @@
  *
  * Date: 2022-12-13T14:56Z
  */
+/** 
 ( function( global, factory ) {
 
 	"use strict";
@@ -150,7 +151,7 @@ function toType( obj ) {
 // unguarded in another place, it seems safer to define global only for this module
 
 
-
+/** 
 var
 	version = "3.6.2",
 
@@ -504,4 +505,5 @@ jQuery.each( "Boolean Number String Function Array Date RegExp Object Error Symb
 	function( _i, name ) {
 		class2type[ "[object " + name + "]" ] = name.toLowerCase();
 	} );
-
+}; 
+*/
